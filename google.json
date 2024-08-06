@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "resissur",
+  "private_key_id": "60dd286ee2365b96bcb5ac8bbc91ead3b5327c7c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCbvaPKR/5EzzNU\ngRPIki72eJ5ICWzYyx/myRLca6snOcAkKL4QLZQFFGdyw+lfC5UXRYz+ghLDS0rp\nv3CW9bRGy94XfsT3ioEbYKtTre1cFyIFVQuyOo31qCYiNkTVuPtwET7ky6kYnlXN\nVa+C9FTC+bumVIdQuZc8ycnrnU0BY5On6Wg/l3nFh8R+ysGXHzVRmk8V5G+C2++I\nvrx2wFgpGmcy7VtJiRI2zNikHqRvgf21diJYGK6laUylHK99ODJNm+G9QLQ4hMxe\nBx8K2GUH9WALZOz2MlUauREm+TmBrJCVs3fbimlnmqG+wjPgCAdk36TVlLGLCS3t\naWKrGbe5AgMBAAECggEACAm0LHe66hARQQ0uDqCVf2ovbcjcvwimw27BGYgOC+bO\ntvRfsNk6sJNtGQ7URS/wGITMrNhc7GA/BCGPB5+JQnZ5poKdWv2hQbQ4y3ITKXkB\nLBTHrIHEpgyGYVF7NoDxqzGcqnV6Ffeato+zpgGDEWgPClvbpavadXb1rq0jlmIZ\nvUvhQLbPAgjB/L8AtPiSGV1AyURKt9fGmzivSE9IqHNgh8CsvsK3XZQJWAfDmRQQ\nPNF4NCD1RKruVDXXX97J1wjwhF2BU+h9uP2S5/4NH7SlLljBvSL+WBW/qtDZMG3B\nerjiTNSnCYk6n3cjVhXh4H6B9nD94jsHrrEb5gJFrQKBgQDPSPt6J+sP9r53N+Ie\nlBCk/Y/NO3h/9NNaaOEj+pWVpG/3ZAW6jM59KP1ykogHe+qOxB5Td48+QjMEH90O\nHhp9Rk5R+7ANfnyrRTofoONNSnHJIcaf8ounijqvyKcsYQvLXWRazCYUkakANY8K\nIjRPAsN5V132yWdT3npXKZYKDQKBgQDAV5D3L8F5lMdLaOeoCmvpB8R8mqtpbgtS\n2w7cPjAsfeOmb+KQPIICp+T2XUp58j+e3FMYVCpy6D1Q5FjfEh5xGF/HZlZKGBqJ\nREwp3LZlu9QdaAfQBxVgNtSxds24l0nFQM8LrI53eQnlJXBu0bWgH21dZH8sfrHl\nvCZLe5kVXQKBgDRAKWP5e/9iK1DR/WXH3Qo6AG2zeASJKl234ki3ec1mzfKGfAsy\nQzq5gmnHFhMM4WtrdFmF4c3H0iRQA+DzJao+dq+jyhUctUBXCve+Do4FHfmdUfwv\nn5Rz+6cj5UACln6E5C8fFtpIfVlYJt5fEOB5ydxkcYMr8afqhNxD11ZhAoGBAJXh\nZpCIQS651dcYhzQ18sLjD6S9bgc4/k/xbZIIT8fLzaK7mwQkcncZV9z283s1X4gu\nTf4uT+m8uVMYrXwehWRBxxj90Q3p3HvMocEZQXTjObY0g6oCaxDPiUxEtKg8E/tG\ntlB1hYrp4eETHJruhaah9roI/uSwUXYg+IJnbPHtAoGAWBxHtdP+GOVceH3g32Vn\nYyfQW6bScJAKEbGxVJjrD4yOtF7UN7bBVvTCcy+fm6f7yDgwE2UrI/7zFrblsDQZ\nmUd5yQf0IRU3OglSwhg6ehxYXJE0OgT0B4LJ+NcuplGM51378kvURupplxykck8g\nalh0FKnpiLbBAwgpNK4K0TY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheetsserviceaccount@resissur.iam.gserviceaccount.com",
+  "client_id": "102915711061182586776",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheetsserviceaccount%40resissur.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
