@@ -8,6 +8,11 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+# Instalar eslint globalmente y ajustar los permisos
+RUN npm install -g eslint && \
+    chmod -R 755 /usr/local/lib/node_modules/eslint && \
+    chmod -R 755 /usr/local/bin/eslint
+
 # Copiar el resto del código de la aplicación
 COPY . .
 
@@ -27,4 +32,3 @@ ARG PORT
 
 # Comando para iniciar la aplicación
 CMD ["npm", "start"]
-
