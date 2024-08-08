@@ -8,6 +8,7 @@ WORKDIR /app
 #RUN npm install
 COPY package*.json ./
 RUN npm install -g npm@10.8.2
+RUN npm install --platform=linux --arch=x64 sharp
 
 # Instalar eslint globalmente y ajustar los permisos
 RUN npm install -g eslint && \
