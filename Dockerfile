@@ -5,8 +5,9 @@ FROM node:18-bullseye as bot
 WORKDIR /app
 
 # Copiar los archivos de dependencias y instalarlas
+#RUN npm install
 COPY package*.json ./
-RUN npm install
+RUN npm install -g npm@10.8.2
 
 # Instalar eslint globalmente y ajustar los permisos
 RUN npm install -g eslint && \
