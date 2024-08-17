@@ -33,4 +33,6 @@ ARG PUBLIC_URL
 ARG PORT
 
 # Comando para iniciar la aplicación
-CMD ["npm", "start"]
+CMD ["npm", "--max-old-space-size=1024", "start"]
+#CMD ["npm", "start"]
+

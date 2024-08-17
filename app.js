@@ -58,25 +58,25 @@ const QRPortalWeb = require('@bot-whatsapp/portal');
 const BaileysProvider = require('@bot-whatsapp/provider/baileys');
 const MockAdapter = require('@bot-whatsapp/database/mock');
 const { searchValueInSheet } = require("./utils");
-const { makeWASocket } = require('@whiskeysockets/baileys');
 
 // Adaptador personalizado para no almacenar la autenticación
 const authState = {
-    creds: {
-        noiseKey: undefined,
-        signedIdentityKey: undefined,
-        signedPreKey: undefined,
-        registrationId: undefined,
-        advSecretKey: undefined,
-        nextPreKeyId: 1,
-        firstUnuploadedPreKeyId: 1,
-        serverHasPreKeys: true,
-        account: undefined,
-        me: { id: 'YOUR_PHONE_NUMBER@s.whatsapp.net', name: 'Tesorería Resis Sur' },
-        signalIdentities: [],
-        lastAccountSyncTimestamp: undefined,
-        myAppStateKeyId: undefined
-    },
+    creds:undefined,
+    // creds: {
+    //     noiseKey: undefined,
+    //     signedIdentityKey: undefined,
+    //     signedPreKey: undefined,
+    //     registrationId: undefined,
+    //     advSecretKey: undefined,
+    //     nextPreKeyId: 1,
+    //     firstUnuploadedPreKeyId: 1,
+    //     serverHasPreKeys: true,
+    //     account: undefined,
+    //     me: { id: 'YOUR_PHONE_NUMBER@s.whatsapp.net', name: 'Tesorería Resis Sur' },
+    //     signalIdentities: [],
+    //     lastAccountSyncTimestamp: undefined,
+    //     myAppStateKeyId: undefined
+    // },
     keys: {
         preKeys: {},
         sessions: {},
@@ -118,7 +118,7 @@ const main = async () => {
         auth: authState, // Utilizar el adaptador de autenticación personalizado
         session: null // No almacenar sesión
     });
-
+    
     createBot({
         flow: adapterFlow,
         provider: adapterProvider,
