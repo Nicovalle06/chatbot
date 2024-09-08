@@ -12,7 +12,6 @@
     "dependencies": {
         "@bot-whatsapp/bot": "latest",
         "@bot-whatsapp/cli": "latest",
-        
         "@bot-whatsapp/portal": "latest",
         "@bot-whatsapp/provider": "latest",
         "@whiskeysockets/baileys": "6.5.0",
@@ -30,3 +29,5 @@
     "author": "",
     "license": "ISC"
 }
+
+//"@bot-whatsapp/database": "latest",
