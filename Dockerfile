@@ -7,7 +7,7 @@ WORKDIR /app
 # Copiar los archivos de dependencias y instalarlas
 #RUN npm install
 COPY package*.json ./
-RUN npm install -g npm@10.8.2
+RUN npm install -g npm@10.8.3
 RUN npm install --platform=linux --arch=x64 sharp
 
 # Instalar eslint globalmente y ajustar los permisos
@@ -33,6 +33,6 @@ ARG PUBLIC_URL
 ARG PORT
 
 # Comando para iniciar la aplicación
-CMD ["npm", "--max-old-space-size=32769", "start"]
-#CMD ["npm", "start"]
+CMD ["npm", "start"]
+#CMD ["npm", "--max-old-space-size=32769", "start"]
 
