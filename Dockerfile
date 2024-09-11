@@ -19,13 +19,13 @@ RUN npm install -g eslint && \
 COPY . .
 
 # Crear un usuario y grupo nuevo
-RUN groupadd -r appuser && useradd -r -g appuser appuser
+#RUN groupadd -r appuser && useradd -r -g appuser appuser
 
 # Asignar permisos de usuario al directorio de trabajo
-RUN chown -R appuser:appuser /app
+#RUN chown -R appuser:appuser /app
 
 # Cambiar a este usuario
-USER appuser
+#USER appuser
 
 # Definir variables de entorno (si es necesario)
 ARG RAILWAY_STATIC_URL
